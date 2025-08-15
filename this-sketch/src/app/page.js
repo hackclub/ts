@@ -113,6 +113,7 @@ export default function Home() {
         <li>You can't be mad if you don't like it — it's not personal</li>
         <li>You can submit as many projects as you like; you will get one drawing per project</li>
         <li>Please do double dip with summer-of-making</li>
+        <li>You CAN use these for your NFT needs</li>
         <li>Questions: ask @CAN</li>
       </ul>
     </main>
