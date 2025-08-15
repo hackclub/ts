@@ -47,7 +47,7 @@ export default function Home() {
       </div>
 
       {/* Portfolio */}
-      <h1 className="text-black text-3xl mb-4">My (@CAN's) Portfolio:</h1>
+      <h1 className="text-black text-3xl mb-4">The Club so far: (@CAN's Portfolio)</h1>
       <div className="flex gap-6 mb-8 flex-wrap justify-center">
         <div className="flex flex-col items-center">
           <img
