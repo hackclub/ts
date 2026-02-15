@@ -31,18 +31,16 @@ export default function Home() {
           className="w-full max-w-lg rounded-2xl shadow-lg object-cover"
         />
 
-        {/* Pulsing Link */}
-        <a
-          href="https://forms.hackclub.com/ts"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-blue-600 text-4xl font-semibold underline underline-offset-4 hover:text-blue-800 transition-colors duration-200"
-          style={{
-            animation: 'pulse-scale 1.5s ease-in-out infinite',
-          }}
+        <div className="text-red-800 text-2xl font-bold text-center">
+          This event has ended! Thanks to everyone who participated.
+        </div>
+
+        <span
+          className="text-gray-400 text-4xl font-semibold line-through cursor-not-allowed select-none"
+          aria-disabled="true"
         >
           SUBMIT YOUR PROJECT
-        </a>
+        </span>
 
         {/* Description */}
         <h1 className="text-black text-3xl text-center">
