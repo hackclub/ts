@@ -1,5 +1,12 @@
 'use client';
 
+import img1120 from '@/img/IMG_1120.png';
+import img1119 from '@/img/IMG_1119.png';
+import img1118 from '@/img/IMG_1118.png';
+import img1117 from '@/img/IMG_1117.png';
+import img1116 from '@/img/IMG_1116.png';
+import img1114 from '@/img/IMG_1114.png';
+import img1111 from '@/img/IMG_1111.png';
 
 export default function Home() {
   return (
@@ -19,7 +26,7 @@ export default function Home() {
       <div className="mb-8 flex flex-col items-center gap-6">
         {/* Main Image */}
         <img
-          src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/aa816c3d41fbb84d9442e80d4ed2300c16023e44_img_1118.png"
+          src={img1118.src}
           alt="Main"
           className="w-full max-w-lg rounded-2xl shadow-lg object-cover"
         />
@@ -51,7 +58,7 @@ export default function Home() {
       <div className="flex gap-6 mb-8 flex-wrap justify-center">
         <div className="flex flex-col items-center">
           <img
-            src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/49e069e2f9001ca9cd75777dbc991dd1bd3698e5_img_1117.png"
+            src={img1117.src}
             alt="Small 1"
             className="w-32 rounded-xl shadow-md object-cover"
           />
@@ -60,7 +67,7 @@ export default function Home() {
 
         <div className="flex flex-col items-center">
           <img
-            src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/38e4db8b881bf5008bbe604e501dd4016422b914_img_1116.png"
+            src={img1116.src}
             alt="Small 2"
             className="w-32 rounded-xl shadow-md object-cover"
           />
@@ -69,7 +76,7 @@ export default function Home() {
 
         <div className="flex flex-col items-center">
           <img
-            src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/84771fbffec1033aa9ca4e5c6244f69bc5e6e7ea_img_1114.png"
+            src={img1114.src}
             alt="Small 3"
             className="w-32 rounded-xl shadow-md object-cover"
           />
@@ -78,7 +85,7 @@ export default function Home() {
 
         <div className="flex flex-col items-center">
           <img
-            src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/1b9cf437a46c0f51f4189b26806a532068cc0475_img_1120.png"
+            src={img1120.src}
             alt="Small 4"
             className="w-32 rounded-xl shadow-md object-cover"
           />
@@ -87,7 +94,7 @@ export default function Home() {
 
         <div className="flex flex-col items-center">
           <img
-            src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/3b84bd20c0e55d6348328f87c6a4ac5f48075a95_img_1119.png"
+            src={img1119.src}
             alt="Small 5"
             className="w-32 rounded-xl shadow-md object-cover"
           />
@@ -96,7 +103,7 @@ export default function Home() {
 
         <div className="flex flex-col items-center">
           <img
-            src="https://hc-cdn.hel1.your-objectstorage.com/s/v3/921d87a38b9e1bb4a531a9d0775cd5f1ea67d58a_img_1111.png"
+            src={img1111.src}
             alt="Small 6"
             className="w-32 rounded-xl shadow-md object-cover"
           />
